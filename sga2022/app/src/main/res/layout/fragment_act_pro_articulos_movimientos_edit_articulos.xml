@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="movimientos.ActProArticulosMovimientosEditArticulos">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/dark_blue"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:id="@+id/LLBody"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            tools:ignore="UselessParent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/LLArticle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/LLDescription">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:id="@+id/LLArtNum"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toStartOf="@id/searchImage"
+                            app:layout_constraintBottom_toBottomOf="parent">
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:id="@+id/text_input_article"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:hint="Articulo"
+                                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                tools:ignore="HardcodedText"
+                                app:startIconDrawable="@drawable/ic_baseline_shopping_cart_24">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/numArticulo"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    tools:ignore="Deprecated,HardcodedText" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/searchImage"
+                            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+                            android:layout_width="43dp"
+                            android:layout_height="43dp"
+                            android:layout_margin="10dp"
+                            app:icon="@drawable/lupa"
+                            app:iconSize="30dp"
+                            app:iconTint="#80000000"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/LLArtNum"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLDescription"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toTopOf="@id/LLOrigin"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/LLArticle">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/text_input_description"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:hint="Descripcion"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                        tools:ignore="HardcodedText"
+                        app:startIconDrawable="@drawable/ic_baseline_description_24">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/descMovimiento"
+                            style="@style/editTextStyleJV"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:importantForAutofill="no"
+                            android:inputType="textMultiLine"
+                            android:isScrollContainer="true"
+                            tools:ignore="Deprecated,HardcodedText" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLOrigin"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/LLDescription"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/LLDestination"
+                    android:visibility="gone">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Almacen Origen"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            tools:ignore="HardcodedText"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"/>
+
+                        <Spinner
+                            android:id="@+id/alOrigen"
+                            android:layout_width="123dp"
+                            android:layout_height="46dp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLDestination"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/LLOrigin"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/LLAmount"
+                    android:visibility="gone">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:text="Almacen Destino"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            tools:ignore="HardcodedText"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"/>
+
+                        <Spinner
+                            android:id="@+id/alDestino"
+                            android:layout_width="123dp"
+                            android:layout_height="46dp"
+                            android:layout_marginTop="4dp"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"/>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLAmount"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/LLDestination"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/imageView">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cantidad"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                            tools:ignore="HardcodedText"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"/>
+
+                        <NumberPicker
+                            android:id="@+id/editCantidad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="90dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintTop_toBottomOf="@id/LLAmount"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toTopOf="@id/LLButtons"/>
+
+                <LinearLayout
+                    android:id="@+id/LLButtons"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/ic_baseline_save_24"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/imageView">
+
+                    <LinearLayout
+                        android:id="@+id/defaultButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnEdit"
+                            style="@style/Widget.MaterialComponents.Button"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/green_good"
+                            app:iconGravity="textStart"
+                            android:layout_margin="5dp"
+                            app:icon="@drawable/ic_baseline_edit_24"/>
+
+                        <Button
+                            android:id="@+id/btnDelete"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            style="@style/Widget.MaterialComponents.Button"
+                            app:icon="@drawable/ic_baseline_cancel_24"
+                            app:iconGravity="textStart"
+                            android:layout_margin="5dp"
+                            android:backgroundTint="@color/red"/>
+
+                        <Button
+                            android:id="@+id/btnVolverNormal"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="70dp"
+                            app:iconGravity="textStart"
+                            android:layout_margin="5dp"
+                            style="@style/Widget.AppCompat.Button"
+                            app:backgroundTint="@color/blue"
+                            app:icon="@drawable/ic_baseline_keyboard_return_24"
+                            tools:ignore="DuplicateIds" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/editButtons"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/btnGuardar"
+                            style="@style/Widget.MaterialComponents.Button"
+                            android:layout_width="0dp"
+                            android:layout_height="70dp"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/green_good"
+                            app:iconGravity="textStart"
+                            android:layout_margin="5dp"
+                            app:icon="@drawable/ic_baseline_save_24"/>
+
+                        <Button
+                            android:id="@+id/btnVolverEdit"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="70dp"
+                            app:iconGravity="textStart"
+                            android:layout_margin="5dp"
+                            style="@style/Widget.AppCompat.Button"
+                            app:backgroundTint="@color/blue"
+                            app:icon="@drawable/ic_baseline_keyboard_return_24"
+                            tools:ignore="DuplicateIds" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

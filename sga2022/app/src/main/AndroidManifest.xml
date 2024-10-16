@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dasoen.sga"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_sga_2022"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/logo_sga_2022"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectLogin"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".movimientos.ActProArticulosMovimientosInfo"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".movimientos.ActProArticulosMovimientosLinList"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".movimientos.ActProArticulosMovimientosLin"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".menu.ActMenuMovimientos"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".clientes.ResetPassword"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".clientes.DeleteActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+        <activity
+            android:name=".ActLogin"
+            android:exported="true"
+            android:theme="@style/Theme.Splash"
+            android:windowSoftInputMode="adjustResize|adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".movimientos.ActProArticulosMovimientos"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|adjustPan" />
+    </application>
+
+</manifest>

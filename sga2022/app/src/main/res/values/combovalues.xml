@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string-array name="tipo_movimientos">
+        <item>Entrada</item>
+        <item>Salida</item>
+        <item>Intercambio</item>
+    </string-array>
+    <string-array name="tipo_busqueda">
+        <item>NumArt</item>
+        <item>CDB</item>
+        <item>Descripcion</item>
+    </string-array>
+    <string-array name="movimiento_busqueda">
+        <item>ID MOVIMIENTO</item>
+        <!--<item>RefPadre</item>-->
+        <item>DESCRIPCION</item>
+        <item>ID ONLINE</item>
+    </string-array>
+</resources>

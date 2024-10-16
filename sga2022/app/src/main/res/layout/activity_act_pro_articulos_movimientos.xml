@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".movimientos.ActProArticulosMovimientos"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/LLHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/divider"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp">
+
+                        <ImageView
+                            android:src="@drawable/logo_sga_2022"
+                            android:layout_width="20dp"
+                            android:layout_height="0dp"
+                            android:textAllCaps="true"
+                            android:fontFamily="monospace"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/userField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="TextView"
+                            android:textAllCaps="true"
+                            android:fontFamily="monospace"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            tools:ignore="HardcodedText,RtlHardcoded"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@id/LLFotter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LLBody"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintBottom_toTopOf="@id/LLBody"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/LLHeader"/>
+
+        <LinearLayout
+            android:id="@+id/LLBody"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            app:layout_constraintBottom_toTopOf="@id/divider2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/LLDescription"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            app:layout_constraintBottom_toTopOf="@id/LLDate"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                                <com.google.android.material.textfield.TextInputLayout
+                                    android:id="@+id/text_input_username"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:hint="Descripcion"
+                                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                                    tools:ignore="HardcodedText"
+                                    app:startIconDrawable="@drawable/ic_baseline_description_24">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/descMovimiento"
+                                            style="@style/editTextStyleJV"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:importantForAutofill="no"
+                                            android:inputType="textMultiLine"
+                                            android:isScrollContainer="true"
+                                            tools:ignore="HardcodedText"/>
+
+                                </com.google.android.material.textfield.TextInputLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/LLDate"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintBottom_toTopOf="@id/LLTime"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/LLDescription">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textView4"
+                                            android:layout_width="58dp"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="Fecha:"
+                                            android:textStyle="bold"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            tools:ignore="HardcodedText" />
+
+                                        <DatePicker
+                                            android:id="@+id/datePicker"
+                                            android:layout_width="249dp"
+                                            android:layout_height="0dp"
+                                            android:calendarViewShown="false"
+                                            android:datePickerMode="spinner"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLTime"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintBottom_toTopOf="@id/LLTipe"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/LLDate">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textView3"
+                                            android:layout_width="58dp"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="Hora:"
+                                            android:textStyle="bold"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            tools:ignore="HardcodedText" />
+
+                                        <TimePicker
+                                            android:id="@+id/timePicker"
+                                            android:layout_width="251dp"
+                                            android:layout_height="0dp"
+                                            android:timePickerMode="spinner"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/LLTipe"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintBottom_toTopOf="@id/LLCerrado"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/LLTime">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textView5"
+                                            android:layout_width="58dp"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="Tipo:"
+                                            android:textStyle="bold"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            tools:ignore="HardcodedText" />
+
+                                        <Spinner
+                                            android:id="@+id/spinnerMov"
+                                            android:layout_width="163dp"
+                                            android:layout_height="33dp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"/>
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+                        <!--// Vamos a poner un control que permita al usuario definir si el movimiento está cerrado o no. Una vez cerrado (marcado como cerrado) no podrá volver a editar el movimiento.-->
+                        <LinearLayout
+                            android:id="@+id/LLCerrado"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:orientation="horizontal"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/LLTipe"
+                            app:layout_constraintBottom_toTopOf="@id/LLButtons"
+                            android:visibility="gone">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textViewCerrado"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:text="Cerrado:"
+                                            android:textStyle="bold"
+                                            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            tools:ignore="HardcodedText" />
+
+                                        <androidx.appcompat.widget.SwitchCompat
+                                            android:id="@+id/switchCerrado"
+                                            android:layout_width="wrap_content"
+                                            style="Widget.MaterialComponents.CompoundButton.Switch"
+                                            android:layout_height="wrap_content"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"/>
+
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/LLButtons"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center"
+                            app:layout_constraintTop_toBottomOf="@id/LLCerrado"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            android:weightSum="2">
+
+                                <Button
+                                    android:id="@+id/btnAceptar"
+                                    style="@style/Widget.MaterialComponents.Button"
+                                    android:layout_width="0dp"
+                                    android:layout_height="70dp"
+                                    android:layout_margin="5dp"
+                                    android:layout_weight="1"
+                                    app:icon="@drawable/ic_baseline_save_24"
+                                    app:iconGravity="textStart"
+                                    app:iconPadding="0dp" />
+
+                                <Button
+                                    android:id="@+id/btnCancel"
+                                    android:layout_width="0dp"
+                                    android:layout_weight="1"
+                                    android:layout_height="70dp"
+                                    app:iconGravity="textStart"
+                                    android:layout_margin="5dp"
+                                    app:iconPadding="0dp"
+                                    style="@style/Widget.MaterialComponents.Button"
+                                    app:icon="@drawable/ic_baseline_cancel_24"
+                                    app:backgroundTint="@color/red"
+                                    android:gravity="center_vertical|center_horizontal"/>
+                        </LinearLayout>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLFotter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp">
+
+                        <TextView
+                            android:id="@+id/dateField"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal|center_vertical"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:ignore="HardcodedText"
+                            android:fontFamily="monospace"
+                            tools:text="99/99/9999" />
+
+                        <TextView
+                            android:id="@+id/versinoApp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="1.1"
+                            tools:ignore="HardcodedText"
+                            android:fontFamily="monospace"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

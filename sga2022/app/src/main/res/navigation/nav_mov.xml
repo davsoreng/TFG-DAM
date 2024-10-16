@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_mov"
+    app:startDestination="@id/actProArticulosMovimientosPreview">
+
+    <fragment
+        android:id="@+id/actProArticulosMovimientosPreview"
+        android:name="com.dasoen.sga.movimientos.ActProArticulosMovimientosPreview"
+        android:label="ActProArticulosMovimientosPreview"
+        tools:layout="@layout/fragment_act_pro_articulos_movimientos_preview">
+        <action
+            android:id="@+id/action_actProArticulosMovimientosPreview_to_actProArticulosMovimientosEdit"
+            app:destination="@id/actProArticulosMovimientosEdit"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+        <action
+            android:id="@+id/action_actProArticulosMovimientosPreview_to_actProArticulosMovimientosEditArticulos"
+            app:destination="@id/actProArticulosMovimientosEditArticulos"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/actProArticulosMovimientosEdit"
+        android:name="com.dasoen.sga.movimientos.ActProArticulosMovimientosEdit"
+        android:label="ActProArticulosMovimientosEdit"
+        tools:layout="@layout/fragment_act_pro_articulos_movimientos_edit">
+        <action
+            android:id="@+id/action_actProArticulosMovimientosEdit_to_actProArticulosMovimientosPreview"
+            app:destination="@id/actProArticulosMovimientosPreview"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+    </fragment>
+    <fragment
+        android:id="@+id/actProArticulosMovimientosEditArticulos"
+        android:name="com.dasoen.sga.movimientos.ActProArticulosMovimientosEditArticulos"
+        android:label="ActProArticulosMovimientosEditArticulos"
+        tools:layout="@layout/fragment_act_pro_articulos_movimientos_edit_articulos">
+        <action
+            android:id="@+id/action_actProArticulosMovimientosEditArticulos_to_actProArticulosMovimientosPreview"
+            app:destination="@id/actProArticulosMovimientosPreview"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"/>
+    </fragment>
+</navigation>

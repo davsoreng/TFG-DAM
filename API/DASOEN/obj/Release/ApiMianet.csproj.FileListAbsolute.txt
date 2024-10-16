@@ -1,0 +1,197 @@
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\csc.exe
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\csc.exe.config
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\csc.rsp
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\csi.exe
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\csi.rsp
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.AppContext.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.Collections.Immutable.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\vbc.exe
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\vbc.exe.config
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\vbc.rsp
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe.config
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\DASOEN.dll.config
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\DASOEN.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\DASOEN.pdb
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Newtonsoft.Json.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Owin.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Net.Http.Formatting.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.Owin.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.WebHost.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\Newtonsoft.Json.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.Owin.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Net.Http.Formatting.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\bin\System.Web.Http.WebHost.xml
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\obj\Release\DASOEN.dll
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\obj\Release\DASOEN.pdb
+C:\Trabajo\WebServices\DASOEN\DASOEN\DASOEN\obj\Release\DASOEN.csprojResolveAssemblyReference.cache
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\csc.exe
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\csc.exe.config
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\csc.rsp
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\csi.exe
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\csi.rsp
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.AppContext.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.Collections.Immutable.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\vbc.exe
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\vbc.exe.config
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\vbc.rsp
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe.config
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\DASOEN.dll.config
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\DASOEN.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\DASOEN.pdb
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Newtonsoft.Json.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Owin.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Net.Http.Formatting.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.Owin.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.WebHost.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Newtonsoft.Json.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.Owin.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Net.Http.Formatting.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Http.WebHost.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\obj\Release\DASOEN.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\obj\Release\DASOEN.pdb
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Web.Infrastructure.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Swashbuckle.Core.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\WebActivatorEx.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Cors.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\System.Web.Cors.dll
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\bin\Microsoft.Owin.Cors.xml
+C:\Trabajo\A MEDIDA\DASOEN\DASOEN\obj\Release\DASOEN.csprojResolveAssemblyReference.cache
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\csc.exe
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\csc.exe.config
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\csc.rsp
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\csi.exe
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\csi.rsp
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.AppContext.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.Collections.Immutable.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\System.Reflection.Metadata.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\vbc.exe
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\vbc.exe.config
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\vbc.rsp
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\roslyn\VBCSCompiler.exe.config
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\DASOEN.dll.config
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\DASOEN.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\DASOEN.pdb
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Cors.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Web.Infrastructure.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Newtonsoft.Json.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Owin.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Swashbuckle.Core.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Net.Http.Formatting.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Cors.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.Owin.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.WebHost.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\WebActivatorEx.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Cors.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\Newtonsoft.Json.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.Owin.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Net.Http.Formatting.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\bin\System.Web.Http.WebHost.xml
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\obj\Release\DASOEN.csprojAssemblyReference.cache
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\obj\Release\DASOEN.csproj.CoreCompileInputs.cache
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\obj\Release\DASOEN.csproj.CopyComplete
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\obj\Release\DASOEN.dll
+C:\Trabajo\A MEDIDA\PRUEBAS-API-SORIANO\DASOEN\DASOEN\obj\Release\DASOEN.pdb
